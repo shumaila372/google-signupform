@@ -1,0 +1,61 @@
+.container{
+ width: 70%;
+ height: 500px;
+ border: 2px solid black;
+ margin:auto;
+ background: #fff;
+ border: .1em solid #d6cfcf;
+ margin-top: 80px;
+ border-radius: 7px;
+}
+.container .left{
+    float: left;
+    width: 60%;
+    height: 400px;
+    margin-left: 20px;
+}
+.left .google{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.left .formbox{
+    margin-left: 20px;
+}
+input{
+    margin-right: 10px;
+margin-top: 20px;
+}
+.next-btn{
+    background-color: #4688f1;
+    color: white;
+    border: 5px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 150px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.next-btn :hover{
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color:#4688f1 ;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.footer ul{
+    display: flex;
+    float: right;
+}
+.footer li{
+    list-style: none;
+    float: right;
+}
+.footer a{
+    color: #d6cfcf;
+    float: right;
+}
+.username{
+    padding-right: 190px;
+}
